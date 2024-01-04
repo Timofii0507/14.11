@@ -1,0 +1,11 @@
+#ifndef FUNCTIONS_H
+#define FUNCTIONS_H
+
+int findMin(int a, int b);
+int findMax(int a, int b);
+int square(int x);
+int power(int x, int n);
+bool isEven(int x);
+bool isOdd(int x);
+
+#endif 
