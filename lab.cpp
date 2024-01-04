@@ -1,28 +1,25 @@
-#include <iostream>
-#include <Windows.h>
 #include "functions.h"
-using namespace std;
 
 int main() 
 {
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
     int num1, num2;
-    cout << "Ââåä³òü ïåðøå ÷èñëî: ";
+    cout << "Ã‚Ã¢Ã¥Ã¤Â³Ã²Ã¼ Ã¯Ã¥Ã°Ã¸Ã¥ Ã·Ã¨Ã±Ã«Ã®: ";
     cin >> num1;
-    cout << "Ââåä³òü äðóãå ÷èñëî: ";
+    cout << "Ã‚Ã¢Ã¥Ã¤Â³Ã²Ã¼ Ã¤Ã°Ã³Ã£Ã¥ Ã·Ã¨Ã±Ã«Ã®: ";
     cin >> num2;
-    cout << "Ì³í³ìóì ç " << num1 << " ³ " << num2 << " - öå: " << findMin(num1, num2) << endl;
-    cout << "Ìàêñèìóì ç " << num1 << " ³ " << num2 << " - öå: " << findMax(num1, num2) << endl;
-    cout << "Êâàäðàò ÷èñëà " << num1 << " - öå: " << square(num1) << endl;
-    cout << num1 << " ï³äíÿòå â ñòóï³íü 3 äîð³âíþº: " << power(num1, 3) << endl;
+    cout << "ÃŒÂ³Ã­Â³Ã¬Ã³Ã¬ Ã§ " << num1 << " Â³ " << num2 << " - Ã¶Ã¥: " << findMin(num1, num2) << endl;
+    cout << "ÃŒÃ ÃªÃ±Ã¨Ã¬Ã³Ã¬ Ã§ " << num1 << " Â³ " << num2 << " - Ã¶Ã¥: " << findMax(num1, num2) << endl;
+    cout << "ÃŠÃ¢Ã Ã¤Ã°Ã Ã² Ã·Ã¨Ã±Ã«Ã  " << num1 << " - Ã¶Ã¥: " << square(num1) << endl;
+    cout << num1 << " Ã¯Â³Ã¤Ã­Ã¿Ã²Ã¥ Ã¢ Ã±Ã²Ã³Ã¯Â³Ã­Ã¼ 3 Ã¤Ã®Ã°Â³Ã¢Ã­Ã¾Âº: " << power(num1, 3) << endl;
     if (isEven(num1))
-        cout << num1 << " - ïàðíå ÷èñëî." << endl;
+        cout << num1 << " - Ã¯Ã Ã°Ã­Ã¥ Ã·Ã¨Ã±Ã«Ã®." << endl;
     else
-        cout << num1 << " - íåïàðíå ÷èñëî." << endl;
+        cout << num1 << " - Ã­Ã¥Ã¯Ã Ã°Ã­Ã¥ Ã·Ã¨Ã±Ã«Ã®." << endl;
     if (isOdd(num2))
-        cout << num2 << " - íåïàðíå ÷èñëî." << endl;
+        cout << num2 << " - Ã­Ã¥Ã¯Ã Ã°Ã­Ã¥ Ã·Ã¨Ã±Ã«Ã®." << endl;
     else
-        cout << num2 << " - ïàðíå ÷èñëî." << endl;
+        cout << num2 << " - Ã¯Ã Ã°Ã­Ã¥ Ã·Ã¨Ã±Ã«Ã®." << endl;
     return 0;
 }
