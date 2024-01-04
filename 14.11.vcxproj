@@ -21,9 +21,12 @@
   <ItemGroup>
     <ClCompile Include="functions.cpp" />
     <ClCompile Include="lab.cpp" />
+    <ClCompile Include="prog.cpp" />
+    <ClCompile Include="finction_.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="functions.h" />
+    <ClInclude Include="function_.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

@@ -1,5 +1,8 @@
 #ifndef FUNCTIONS_H
 #define FUNCTIONS_H
+#include <iostream>
+#include <Windows.h>
+using namespace std;
 
 int findMin(int a, int b);
 int findMax(int a, int b);

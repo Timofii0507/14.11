@@ -3,8 +3,11 @@
   <ItemGroup>
     <ClCompile Include="lab.cpp" />
     <ClCompile Include="functions.cpp" />
+    <ClCompile Include="prog.cpp" />
+    <ClCompile Include="finction_.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="functions.h" />
+    <ClInclude Include="function_.h" />
   </ItemGroup>
 </Project>
